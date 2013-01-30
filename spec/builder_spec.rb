@@ -12,7 +12,7 @@ describe Ox::Builder do
   end
 
   context do
-    subject{Ox::Builder.document(version: '1.1', encoding: 'cp1251')}
+    subject{Ox::Builder.document(version: '1.1', 'encoding' => 'cp1251')}
 
     it 'should create  Ox:Document with Ox::Instruct with attributes' do
       subject.should be_instance_of(Ox::Builder::Proxy)
