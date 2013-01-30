@@ -44,7 +44,7 @@ Or install it yourself as:
   end
 
   def channel_post node, post
-    channel.element('item') do |item|
+    node.element('item') do |item|
       node.element('title', post.title)
       node.element('link', post.permalink)
       node.element('guid', post.permalink)
