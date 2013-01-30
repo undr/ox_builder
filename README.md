@@ -50,6 +50,8 @@ Or install it yourself as:
       node.element('guid', post.permalink)
       node.element('pubDate', post.published_at)
       node.element('description', post.description)
+      node.element('category', post.category)
+      mode.element('enclosure',  url: post.image.url, type: 'image/jpeg', length: post.image.size)
     end
   end
 ```
