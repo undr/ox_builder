@@ -2,6 +2,8 @@
 
 XML builder with using ox. Fast and convenient DSL.
 
+[![Build Status](https://secure.travis-ci.org/undr/ox_builder.png?branch=master)](http://travis-ci.org/undr/ox_builder)
+
 ## Installation
 
 Add this line to your application's Gemfile:
